@@ -4,8 +4,8 @@ hbar = 1.0545718e-34  # Reduced Planck constant in J.s
 m1 = 1.0  # Mass of oscillator 1
 m2 = 1.0  # Mass of oscillator 2
 omega1 = 1.0  # Frequency of oscillator 1
-omega2 = 1.0  # Frequency of oscillator 2
-k1, k2, k3, k4 = 0.1, 0.1, 0.1, 0.1  # Coupling constants
+omega2 = 4  # Frequency of oscillator 2
+k1, k2, k3, k4 = 0.1, 0.4, 0.3, 0.5  # Coupling constants
 
 # Interaction coefficients
 A12 = hbar * k1 * np.sqrt(m2 * omega2 / (m1 * omega1))
